@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>800-937-8461</Phone>
+        <Phone>480-968-8885</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.5">
+        <Name>Hilton Phoenix</Name>
+        <Phone>602-123-4567</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Marriott Scottsdale</Name>
+        <Phone>480-555-6789</Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>100</Number>
+            <Street>S Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.0">
+        <Name>Hyatt Regency</Name>
+        <Phone>480-951-1234</Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Residence Inn Tempe</Name>
+        <Phone>480-345-7890</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>600</Number>
+            <Street>E Curry Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>Embassy Suites</Name>
+        <Phone>602-678-2345</Phone>
+        <Phone>800-567-8901</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>44</Number>
+            <Street>W Camelback Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85013</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.9">
+        <Name>Ritz-Carlton, Dove Mountain</Name>
+        <Phone>520-572-3000</Phone>
+        <Address NearestAirport="Tucson International">
+            <Number>15000</Number>
+            <Street>N Secret Springs Dr</Street>
+            <City>Marana</City>
+            <State>AZ</State>
+            <Zip>85658</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.7">
+        <Name>Fairmont Scottsdale Princess</Name>
+        <Phone>480-585-4848</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>7575</Number>
+            <Street>E Princess Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85255</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Hotel Valley Ho</Name>
+        <Phone>480-248-2000</Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>6850</Number>
+            <Street>E Main St</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.6">
+        <Name>Omni Scottsdale Resort and Spa at Montelucia</Name>
+        <Phone>480-627-3200</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>4949</Number>
+            <Street>E Lincoln Dr</Street>
+            <City>Paradise Valley</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>AC Hotel by Marriott Phoenix Tempe/Downtown</Name>
+        <Phone>480-642-6140</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>100</Number>
+            <Street>E Rio Salado Pkwy</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>The Scott Resort and Spa</Name>
+        <Phone>480-945-7666</Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>4925</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
+

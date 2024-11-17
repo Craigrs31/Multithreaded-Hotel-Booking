@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- Error 1: Root element should be "Hotels" instead of "Hotel" -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>800-937-8461</Phone>
+        <Phone>480-968-8885</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.5">
+        <!-- Error 2: Missing Name element for this hotel -->
+        <Phone>602-123-4567</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel>
+        <Name>Marriott Scottsdale</Name>
+        <!-- Error 3: Missing Phone element for this hotel -->
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>100</Number>
+            <Street>S Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.0">
+        <Name>Hyatt Regency</Name>
+        <Phone>480-951-1234</Phone>
+        <Address NearestAirport="Scottsdale Airport"> <!-- Error 4: Unclosed Address tag -->
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        <!-- Missing </Address> closing tag -->
+    </Hotel>
+    
+    <Hotel>
+        <!-- Error 5: Two Name elements for this hotel -->
+        <Name>Residence Inn Tempe</Name>
+        <Name>Residence Inn Extra</Name>
+        <Phone>480-345-7890</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>600</Number>
+            <Street>E Curry Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
+

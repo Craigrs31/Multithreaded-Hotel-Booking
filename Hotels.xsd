@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- Root element: "Hotels" -->
+    <xs:element name="Hotels">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Defines "Hotel" element, allowing multiple "Hotel" entries within "Hotels" -->
+                <xs:element name="Hotel" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- "Name" element is required and must appear first in "Hotel" -->
+                            <xs:element name="Name" type="xs:string" />
+                            
+                            <!-- "Phone" element can appear one or more times and follows "Name" -->
+                            <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" />
+
+                            <!-- Nested "Address" element defines the structure of the hotel's address -->
+                            <xs:element name="Address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Defines sub-elements within "Address" and enforces their order -->
+                                        <xs:element name="Number" type="xs:string" />
+                                        <xs:element name="Street" type="xs:string" />
+                                        <xs:element name="City" type="xs:string" />
+                                        <xs:element name="State" type="xs:string" />
+                                        <xs:element name="Zip" type="xs:string" />
+                                    </xs:sequence>
+                                    <!-- Optional attribute "NearestAirport" within "Address" -->
+                                    <xs:attribute name="NearestAirport" type="xs:string" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <!-- Optional attribute "Rating" for each "Hotel" -->
+                        <xs:attribute name="Rating" type="xs:decimal" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+
+
